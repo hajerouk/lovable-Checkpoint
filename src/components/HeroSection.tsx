@@ -21,10 +21,10 @@ const HeroSection = () => {
         {/* Name and Title */}
         <div className="fade-in-delay mb-6">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            Salut, je suis <span className="hero-title">Alex</span>
+            Salut, je suis <span className="hero-title">Hajer OUKHAY</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground font-light">
-            Développeur Front-End Junior passionné
+            Développeur Front-End Junior passionnée
           </p>
         </div>
 
@@ -85,7 +85,7 @@ const HeroSection = () => {
             <Button 
               variant="outline" 
               size="lg"
-              onClick={() => window.open('https://linkedin.com/in/alex', '_blank')}
+              onClick={() => window.open('https://linkedin.com/in/alexhttps://www.linkedin.com/in/hajer-oukhay-29829a183/', '_blank')}
             >
               <Linkedin className="w-5 h-5" />
               LinkedIn
@@ -93,7 +93,7 @@ const HeroSection = () => {
             <Button 
               variant="outline" 
               size="lg"
-              onClick={() => window.open('https://github.com/alex', '_blank')}
+              onClick={() => window.open('https://github.com/hajerouk', '_blank')}
             >
               <Github className="w-5 h-5" />
               GitHub
@@ -104,7 +104,7 @@ const HeroSection = () => {
         {/* Location */}
         <div className="fade-in-delay mt-8 flex items-center justify-center gap-2 text-muted-foreground">
           <MapPin className="w-4 h-4" />
-          <span className="text-sm">Paris, France</span>
+          <span className="text-sm">Djerba, Tunisie</span>
         </div>
       </div>
     </section>

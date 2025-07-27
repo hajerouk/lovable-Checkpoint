@@ -18,7 +18,7 @@ const Footer = () => {
           <Heart className="w-4 h-4 text-red-500 animate-pulse" />
           <span>et</span>
           <Code2 className="w-4 h-4 text-primary" />
-          <span>par Alex • {new Date().getFullYear()}</span>
+          <span>par Hajer OUKHAY • {new Date().getFullYear()}</span>
         </div>
       </div>
     </footer>
